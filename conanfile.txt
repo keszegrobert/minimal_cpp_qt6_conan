@@ -1,0 +1,2 @@
+[requires]
+qtbase/6.3.1@qt/everywhere
