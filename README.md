@@ -23,6 +23,8 @@ The path provided to the conan command should contain a conanfile.txt or conanfi
 6. Build the generated solution
 7. Run the console application
 
+## The same steps in the terminal
+
 ```git clone https://github.com/keszegrobert/minimal_cpp_qt6_conan.git```
 
 ```cd minimal_cpp_qt6_conan```
