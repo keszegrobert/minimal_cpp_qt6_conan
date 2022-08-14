@@ -25,22 +25,29 @@ The path provided to the conan command should contain a conanfile.txt or conanfi
 
 ## The same steps in the terminal
 
+### 1
 ```git clone https://github.com/keszegrobert/minimal_cpp_qt6_conan.git```
 
 ```cd minimal_cpp_qt6_conan```
 
+### 2
 ```mkdir build```
 
 ```cd build```
 
+### 3
 ```conan install ../ -r qt --generator=virtualenv --build=missing```
 
+### 4
 On *nix systems use: ```source activate.sh```
 
 On Windows* systems use: ```activate.bat```
 
+### 5
 ```cmake ..```
 
+### 6
 ```cmake --build .```
 
+### 7
 ```./helloworld```
